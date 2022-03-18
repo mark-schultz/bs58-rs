@@ -7,8 +7,8 @@ use core::fmt;
 /// [`DecodeBuilder::with_alphabet`](crate::decode::DecodeBuilder::with_alphabet).
 #[derive(Clone, Copy)]
 pub struct Alphabet {
-    pub(crate) encode: [u8; 58],
-    pub(crate) decode: [u8; 128],
+    pub encode: [u8; 58],
+    pub decode: [u8; 128],
 }
 
 /// Errors that could occur when preparing a Base58 alphabet.
